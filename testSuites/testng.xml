@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel = "tests" name="Suite">
+<listeners>
+	<listener class-name="rahulshettyacademy.TestComponant.Listeners"/>
+</listeners>
+	<test thread-count = "5" name="SubmitOrder">
+		<classes>
+			<class name="rahulshettyacademy.tests.SubmitOrderTest" />
+		</classes>
+	</test>
+	<test thread-count = "5" name="ErrorValidation">
+		<classes>
+			<class name="rahulshettyacademy.tests.ErrorValidation" />
+		</classes>
+	</test><!--Test -->
+</suite> <!--Suite -->
