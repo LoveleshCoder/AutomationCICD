@@ -24,6 +24,7 @@ public class StandAloneTest {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		// WebDriverManager.ChromeDriver().setup();
+		// New Comments are added
 		String productName = "ADIDAS ORIGINAL";
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
